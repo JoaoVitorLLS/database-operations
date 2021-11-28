@@ -1,0 +1,50 @@
+﻿<Page
+    x:Class="DatabaseOperationsApplication.Views.MainMenuPageView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DatabaseOperationsApplication.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="{ThemeResource ComboBoxPointerOverBackgroundThemeBrush}">
+
+        <NavigationView PaneClosing="PaneClosing" PaneOpening="PaneOpening" x:Name="NavigationMenu">
+
+            <NavigationView.MenuItems>
+                <NavigationViewItemSeparator/>
+                <NavigationViewItem Content="Create" Tapped="CreateMenuItemTapped" x:Name="CreateMenuItem"/>
+                <NavigationViewItem Content="Read" Tapped="ReadMenuItemTapped" x:Name="ReadMenuItem"/>
+                <NavigationViewItem Content="Update" Tapped="UpdateMenuItemTapped" x:Name="UpdateMenuItem"/>
+                <NavigationViewItem Content="Delete" Tapped="DeleteMenuItemTapped" x:Name="DeleteMenuItem"/>
+            </NavigationView.MenuItems>
+
+            <Frame Name="PageContent">
+                <TextBlock FontSize="72" FontWeight="Bold" Foreground="Black" HorizontalAlignment="Center" Text="Select an operation" TextAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Width="1179"/>
+            </Frame>
+
+        </NavigationView>
+
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState>
+
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="{x:Bind NavigationMenu.CompactModeThresholdWidth}"/>
+                    </VisualState.StateTriggers>
+
+                    <VisualState.Setters>
+                        <Setter Target="NavigationMenu.IsBackButtonVisible" Value="Collapsed"/>
+                        <Setter Target="NavigationMenu.IsSettingsVisible" Value="False"/>
+                        <Setter Target="NavigationMenu.OpenPaneLength" Value="150"/>
+                        <Setter Target="NavigationMenu.PaneDisplayMode" Value="Left"/>
+                    </VisualState.Setters>
+
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+
+    </Grid>
+
+</Page>
