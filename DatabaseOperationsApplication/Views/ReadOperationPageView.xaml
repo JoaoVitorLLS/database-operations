@@ -11,7 +11,7 @@
     <Grid Background="{ThemeResource ComboBoxPointerOverBackgroundThemeBrush}">
         <TextBlock FontSize="24" FontWeight="Bold" Foreground="Black" HorizontalAlignment="Center" Margin="4,404,0,0" Text="Type, in the box below, the identification of the customer thar will be deleted:" TextAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Width="1179"/>
         <TextBox FontSize="20" Height="40" HorizontalAlignment="Left" Margin="450,470,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="438" x:Name="customerIdentificationTextBox"/>
-        <Button Click="DeleteButtonClick" Content="Delete" FontSize="20" FontWeight="Bold" Foreground="White" Height="40" Margin="930,470,0,0" VerticalAlignment="Top" x:Name="DeleteButton">
+        <Button Click="DeleteButtonClick" Content="Search" FontSize="20" FontWeight="Bold" Foreground="White" Height="40" Margin="930,470,0,0" VerticalAlignment="Top" x:Name="DeleteButton">
             <Button.Background>
                 <AcrylicBrush TintColor="#FF858585"/>
             </Button.Background>

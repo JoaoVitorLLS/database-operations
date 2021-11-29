@@ -16,6 +16,7 @@ namespace DatabaseOperationsApplication.Views
             ReadMenuItem.Content = "R";
             UpdateMenuItem.Content = "U";
             DeleteMenuItem.Content = "D";
+            CompraMenuItem.Content = "c";
         }
 
         private void PaneOpening(object sender, object e)
@@ -24,6 +25,7 @@ namespace DatabaseOperationsApplication.Views
             ReadMenuItem.Content = "Read";
             UpdateMenuItem.Content = "Update";
             DeleteMenuItem.Content = "Delete";
+            CompraMenuItem.Content = "Compra";
         }
 
         private void CreateMenuItemTapped(object sender, TappedRoutedEventArgs e)
@@ -44,6 +46,11 @@ namespace DatabaseOperationsApplication.Views
         private void DeleteMenuItemTapped(object sender, TappedRoutedEventArgs e)
         {
             PageContent.Navigate(typeof(DeleteOperationPageView));
+        }
+
+        private void CompraMenuItemTapped(object sender, TappedRoutedEventArgs e)
+        {
+            PageContent.Navigate(typeof(InsertPageView));
         }
     }
 }

@@ -18,6 +18,8 @@
                 <NavigationViewItem Content="Read" Tapped="ReadMenuItemTapped" x:Name="ReadMenuItem"/>
                 <NavigationViewItem Content="Update" Tapped="UpdateMenuItemTapped" x:Name="UpdateMenuItem"/>
                 <NavigationViewItem Content="Delete" Tapped="DeleteMenuItemTapped" x:Name="DeleteMenuItem"/>
+                <NavigationViewItem Content="Compra" Tapped="CompraMenuItemTapped" x:Name="CompraMenuItem"/>
+
             </NavigationView.MenuItems>
 
             <Frame Name="PageContent">

@@ -9,30 +9,30 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid Background="{ThemeResource ComboBoxPointerOverBackgroundThemeBrush}">
-        <TextBlock HorizontalAlignment="Left" Margin="165,207,0,0" TextWrapping="Wrap" Text="CustumerID:" VerticalAlignment="Top" Height="61" Width="216" FontSize="36" Foreground="Black"/>
-        <TextBox x:Name="CustumerIentification" HorizontalAlignment="Left" Margin="165,279,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="60" Width="202" FontSize="36"/>
-        <TextBlock HorizontalAlignment="Left" Margin="364,39,0,0" TextWrapping="Wrap" Text="Insert a new customer:" VerticalAlignment="Top" Height="83" Width="799" FontSize="72" Foreground="Black" FontFamily="Segoe UI Black" FontWeight="Bold"/>
-        <TextBlock HorizontalAlignment="Left" Margin="487,205,0,0" TextWrapping="Wrap" Text="CompanyName:" VerticalAlignment="Top" Height="61" Width="302" FontSize="36" Foreground="Black"/>
-        <TextBox x:Name="ContactName" HorizontalAlignment="Left" Margin="165,422,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="60" Width="280" FontSize="36" Foreground="Black"/>
-        <TextBlock HorizontalAlignment="Left" Margin="493,369,0,0" TextWrapping="Wrap" Text="ContactTitle:" VerticalAlignment="Top" Height="61" Width="216" FontSize="36" Foreground="Black"/>
-        <TextBox x:Name="ContactTitle" HorizontalAlignment="Left" Margin="487,422,0,0" TextWrapping="Wrap" Text="&#xD;&#xA;" VerticalAlignment="Top" Height="60" Width="410" FontSize="36"/>
-        <TextBlock HorizontalAlignment="Left" Margin="165,369,0,0" TextWrapping="Wrap" Text="ContactName:" VerticalAlignment="Top" Height="61" Width="242" FontSize="36" Foreground="Black"/>
-        <TextBox x:Name="CompanyName" HorizontalAlignment="Left" Margin="487,279,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="60" Width="941" FontSize="36"/>
-        <TextBlock HorizontalAlignment="Left" Margin="165,664,0,0" TextWrapping="Wrap" Text="Address:" VerticalAlignment="Top" Height="61" Width="216" FontSize="36" Foreground="Black"/>
-        <TextBox x:Name="Addres" HorizontalAlignment="Left" Margin="165,719,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="60" Width="861" FontSize="36" RenderTransformOrigin="0.431,-0.1"/>
-        <TextBlock HorizontalAlignment="Left" Margin="493,523,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="216" FontSize="36" Text="Cidade:" Foreground="Black"/>
-        <TextBox x:Name="Cidade" HorizontalAlignment="Left" Margin="487,576,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="60" Width="263" FontSize="36"/>
-        <TextBlock HorizontalAlignment="Left" Margin="803,523,0,0" TextWrapping="Wrap" Text="Região:" VerticalAlignment="Top" Height="61" Width="216" FontSize="36" Foreground="Black"/>
-        <TextBox x:Name="Regiao" HorizontalAlignment="Left" Margin="803,576,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="60" Width="270" FontSize="36"/>
-        <TextBlock x:Name="PostalCode" HorizontalAlignment="Left" Margin="1154,666,0,0" TextWrapping="Wrap" Text="PostalCode" VerticalAlignment="Top" Height="61" Width="216" FontSize="36" Foreground="Black"/>
-        <TextBox x:Name="Pais" HorizontalAlignment="Left" Margin="165,576,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="60" Width="258" FontSize="36"/>
-        <TextBlock HorizontalAlignment="Left" Margin="165,528,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="216" FontSize="36" Text="País:" Foreground="Black"/>
-        <TextBox x:Name="PostalCode1" HorizontalAlignment="Left" Margin="1154,719,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="60" Width="255" FontSize="36"/>
-        <TextBlock HorizontalAlignment="Left" Margin="1154,350,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="216" FontSize="36" Foreground="Black"><Run Text="Fone:"/><LineBreak/><Run/></TextBlock>
-        <TextBox x:Name="Fone" HorizontalAlignment="Left" Margin="1154,422,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="60" Width="255" FontSize="36"/>
-        <TextBlock HorizontalAlignment="Left" Margin="1154,523,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="216" FontSize="36" Text="Fax:" Foreground="Black"/>
-        <TextBox x:Name="Fax" HorizontalAlignment="Left" Margin="1154,576,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="60" Width="255" FontSize="36"/>
-        <Button x:Name="btnInserir" Content="Inserir" Margin="0,831,0,0" VerticalAlignment="Top" Height="86" Width="256" HorizontalAlignment="Center" FontSize="36" Foreground="Black"/>
+        <TextBlock HorizontalAlignment="Left" Margin="145,153,0,0" TextWrapping="Wrap" Text="CustumerID:" VerticalAlignment="Top" Height="41" Width="203" FontSize="36" Foreground="Black"/>
+        <TextBox x:Name="CustumerId" HorizontalAlignment="Left" Margin="165,201,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="41" Width="121" FontSize="22"/>
+        <TextBlock HorizontalAlignment="Left" Margin="285,39,0,0" TextWrapping="Wrap" Text="Insert a new customer:" VerticalAlignment="Top" Height="86" Width="480" FontSize="72" Foreground="Black" FontFamily="Segoe UI Black" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="387,148,0,0" TextWrapping="Wrap" Text="CompanyName:" VerticalAlignment="Top" Height="44" Width="343" FontSize="36" Foreground="Black"/>
+        <TextBox x:Name="ContactName" HorizontalAlignment="Left" Margin="145,298,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="41" Width="188" FontSize="22" Foreground="Black"/>
+        <TextBlock HorizontalAlignment="Left" Margin="376,245,0,0" TextWrapping="Wrap" Text="ContactTitle:" VerticalAlignment="Top" Height="58" Width="237" FontSize="36" Foreground="Black"/>
+        <TextBox x:Name="ContactTitle" HorizontalAlignment="Left" Margin="376,298,0,0" TextWrapping="Wrap" Text="&#xD;&#xA;" VerticalAlignment="Top" Height="41" Width="246" FontSize="22"/>
+        <TextBlock HorizontalAlignment="Left" Margin="115,245,0,0" TextWrapping="Wrap" Text="ContactName:" VerticalAlignment="Top" Height="57" Width="239" FontSize="36" Foreground="Black"/>
+        <TextBox x:Name="CompanyName" HorizontalAlignment="Left" Margin="359,201,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="41" Width="565" FontSize="22"/>
+        <TextBlock HorizontalAlignment="Left" Margin="156,448,0,0" TextWrapping="Wrap" Text="Address:" VerticalAlignment="Top" Height="56" Width="130" FontSize="36" Foreground="Black"/>
+        <TextBox x:Name="Addres" HorizontalAlignment="Left" Margin="165,499,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="41" Width="517" FontSize="22" RenderTransformOrigin="0.431,-0.1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="359,354,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="43" Width="130" FontSize="36" Text="Cidade:" Foreground="Black" RenderTransformOrigin="0.477,0.143"/>
+        <TextBox x:Name="Cidade" HorizontalAlignment="Left" Margin="359,402,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="41" Width="158" FontSize="22"/>
+        <TextBlock HorizontalAlignment="Left" Margin="548,349,0,0" TextWrapping="Wrap" Text="Região:" VerticalAlignment="Top" Height="48" Width="130" FontSize="36" Foreground="Black"/>
+        <TextBox x:Name="Regiao" HorizontalAlignment="Left" Margin="548,402,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="41" Width="163" FontSize="22"/>
+        <TextBlock x:Name="PostalCode" HorizontalAlignment="Left" Margin="758,448,0,0" TextWrapping="Wrap" Text="PostalCode" VerticalAlignment="Top" Height="46" Width="268" FontSize="36" Foreground="Black" RenderTransformOrigin="0.5,0.22"/>
+        <TextBox x:Name="Pais" HorizontalAlignment="Left" Margin="165,402,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="41" Width="155" FontSize="22"/>
+        <TextBlock HorizontalAlignment="Left" Margin="165,354,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="42" Width="130" FontSize="36" Text="País:" Foreground="Black"/>
+        <TextBox x:Name="PostalCode1" HorizontalAlignment="Left" Margin="758,503,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="41" Width="154" FontSize="22"/>
+        <TextBlock HorizontalAlignment="Left" Margin="759,249,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="42" Width="130" FontSize="36" Foreground="Black"><Run Text="Fone:"/><LineBreak/><Run/></TextBlock>
+        <TextBox x:Name="Fone" HorizontalAlignment="Left" Margin="759,298,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="41" Width="154" FontSize="22"/>
+        <TextBlock HorizontalAlignment="Left" Margin="758,355,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="42" Width="130" FontSize="36" Text="Fax:" Foreground="Black"/>
+        <TextBox x:Name="Fax" HorizontalAlignment="Left" Margin="759,402,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="41" Width="154" FontSize="22"/>
+        <Button x:Name="BtnInserir" Content="Inserir" Margin="511,577,0,0" VerticalAlignment="Top" Height="58" Width="153" FontSize="36" Foreground="Black" Click="BtnInserir_Click"/>
     </Grid>
 
 </Page>

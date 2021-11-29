@@ -123,12 +123,14 @@
     <Compile Include="ViewModels\CreateOperationPageViewModel.cs" />
     <Compile Include="ViewModels\DeleteOperationPageViewModel.cs" />
     <Compile Include="ViewModels\ReadOperationPageViewModel.cs" />
-    <Compile Include="ViewModels\UpdateOperationPageViewModel.cs" />
     <Compile Include="Views\CreateOperationPageView.xaml.cs">
       <DependentUpon>CreateOperationPageView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\DeleteOperationPageView.xaml.cs">
       <DependentUpon>DeleteOperationPageView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\InsertCompra.xaml.cs">
+      <DependentUpon>InsertCompra.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\MainMenuPageView.xaml.cs">
       <DependentUpon>MainMenuPageView.xaml</DependentUpon>
@@ -167,6 +169,10 @@
     <Page Include="Views\DeleteOperationPageView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\InsertCompra.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Views\MainMenuPageView.xaml">
       <SubType>Designer</SubType>

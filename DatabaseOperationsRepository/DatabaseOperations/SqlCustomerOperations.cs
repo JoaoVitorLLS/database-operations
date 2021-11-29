@@ -10,9 +10,14 @@ namespace DatabaseOperationsRepository.DatabaseOperations
                 SendQueryString(queryString);
         }
 
-        public void InsertCustomer()
+        public void InsertCustomer(string custumerId, string companyName, string contactName, string contactTitle,
+            string adress, string city, string region, string postalCode, string country,
+            string fone, string fax)
         {
-            var queryString = "DELETE * FROM Customers WHERE CustomerID = '" + "AFND" + "';";
+            var queryString = "Insert into Customers (CustomerID , CompanyName, ContactName, ContactTitle, Adress, " +
+                "City, Region, PostalCode, Country, Phone, Fax) values('" + custumerId + "', '" + companyName + "', '" + 
+                contactName + "', '" + contactTitle + "', '" + adress + "', '" + city + "', '" + region + "', '" + 
+                postalCode + "', '" + country + "', '" + fone + "', '" + fax + "');";
             SendQueryString(queryString);
         }
 
